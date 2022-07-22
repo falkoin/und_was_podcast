@@ -1,0 +1,22 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: '"Und was machst du da?" PODCAST'
+theme: 'papermod'
+
+params:
+    homeInfoParams:
+        Title: Und was machst du so?
+        Content: Abonnieren
+    socialIcons: # optional
+      - name: "twitter"
+        url: "www.twitter.com"
+    defaultTheme: dark
+
+menu:
+    main:
+        - name: Über
+          url: ueber
+          weight: 5
+        - name: Impressum
+          url: impressum
+          weight: 5
