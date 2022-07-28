@@ -1,5 +1,22 @@
+<div>
 <script>
-    window.podcastData={"title":"Test","subtitle":"Test","description":"Test","cover":"","feeds":[{"type":"audio","format":"mp3","url":"Test","directory-url-itunes":"Test"},{"type":"audio","format":"mp3","url":"Test","directory-url-itunes":"Test"}]}
+    window.podcastData=
+    {
+        "title":"Test",
+        "subtitle":"Test",
+        "description":"Test",
+        "cover":"{{ $.Site.Params.podcast.cdn_url }}images/cover.png",
+        "feeds":[
+        {
+            "type":"audio",
+            "format":"mp3",
+            "url":"Test",
+            "directory-url-itunes":"Test"
+        }]
+    }    
 </script>
-<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#469cd1" data-format="cover" data-style="filled"></script><noscript><a href="Test">Subscribe to feed</a>
+
+
+<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#469cd1" data-format="rectangle" data-style="filled"></script><noscript><a href="Test">Subscribe to feed</a>
 </noscript>
+</div>

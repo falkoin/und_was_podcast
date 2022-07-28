@@ -1,0 +1,10 @@
+<section class="container page">
+  <article>
+    <img src={{ .Params.Image.url }} width="350" class="center"></a>
+
+    <audio controls>
+      <source src={{.Site.Params.podcast.download_url}}{{ .Params.mp3.asset_link }} type="audio/mpeg" class="center">
+    Your browser does not support the audio element.
+    </audio> 
+  </article>
+</section>

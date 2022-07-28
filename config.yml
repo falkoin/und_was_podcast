@@ -1,16 +1,14 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://podcast.falko.in'
 languageCode: 'en-us'
-title: '"Und was machst du da?" PODCAST'
+title: 'Und was machst du da? Podcast' 
 theme: 'papermod'
 
 params:
     homeInfoParams:
-      Title: Und was machst du da?
-      Content: 
-    socialIcons: # optional
-      - name: "twitter"
-        url: "www.twitter.com"
+      Title: 'Und was machst du da?' 
+      Content: Der geniale Podcast. Das ist eine Beschreibung des grandiosen Werks und noch ein wenig länger. Und noch ein bisschen bla bal
     defaultTheme: dark
+    disableThemeToggle: true
     author:
       name: Patrice
       email: <email>
@@ -23,8 +21,8 @@ params:
     podcast:
       description: Cool Stuff
       tagline: Foodie Flashback - Food & Memories
-      download_url: https://cdn.foodieflashback.com/episodes/
-      cdn_url: https://cdn.foodieflashback.com/
+      download_url: https://podcast.falko.in/episodes/
+      cdn_url: https://podcast.falko.in/
       itunes_url: https://podcasts.apple.com/us/podcast/foodie-flashback/id1504783815
       itunes_id: id1504783815
 

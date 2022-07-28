@@ -47,10 +47,7 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:image href="{{ .Site.Params.podcast.cdn_url }}images/logo_feed.png"/>
         {{ range (where .Site.RegularPages "Params.layout" "episode")}}
-        {{ .Scratch.Set "asset" .Params.aac }}
-        {{if eq $assetFormat "mp3"}}
         {{ .Scratch.Set "asset" .Params.mp3 }}
-        {{end}}
         <item>
             <link>{{.Permalink}}</link>
             <title>{{ .Params.number }}. {{ .Params.title }}</title>
